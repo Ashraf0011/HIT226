@@ -1,0 +1,15 @@
+.header{
+  background: #6699c4;
+  padding: .2em;
+  margin: .2em;
+}
+#headline1{
+  text-align: center;
+}
+.nav-container{
+  text-align: right;
+  display: inline;
+}
+body{
+  background: #f37f77;
+}

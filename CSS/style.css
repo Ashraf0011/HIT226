@@ -1,15 +1,56 @@
+button,input,select,textarea:{
+box-sizing: border-box;
+}
+
+input,select,textarea:{
+  font-family: inherit;
+  font-size: 100%;
+}
+
+label{
+  display: block;
+  margin: 5px;
+}
+
+input[type="text"],input[type="email"]{
+  margin: 5px;
+  width:90%;
+}
+
+input:focus{
+  background-color: #F2F3D9;
+}
+
+input:active{
+  background-color: #BCF8EC;
+}
+
 .header{
   background: #6699c4;
   padding: .2em;
   margin: .2em;
 }
+
 #headline1{
   text-align: center;
 }
+
 .nav-container{
   text-align: right;
   display: inline;
 }
+
 body{
-  background: #f37f77;
+  background: #FDF0D5;
+}
+#zip{max-width: 10em}
+
+@media (min-width:40em) {
+  label{
+    display:inline;
+  }
+  input[type="text"],input[type="tel"],input[type="email"]{
+    margin: .2em auto .8em
+    width:50%
+  }
 }

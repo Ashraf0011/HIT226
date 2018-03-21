@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <header class="header" id="header-hr">
+      <h1 id="headline1r">Henbury School</h1>
+      <div class="header-container">
+        <nav class=nav-c>
+          <div class="nav-container">
+            <a href="index.html">Home Page</a>
+            <a href="about.html">About</a>
+          </div>
+        </nav>
+      </div>
+    </header> <br><br>
+    <form class="registration" action="index.html" method="post">
+      <h2 id="registrationform">Registration Form</h2><br>
+      <fieldset>
+        <div>
+          <label for="catagory">Please select a catagory</label>
+          <select name="catagoty" id="catagory">
+            <option value="guardian">Guardian</option>
+            <option value="stuff">Stuff</option>
+          </select>
+        </div>
+      </fieldset><br>
+
+        <div class="name">
+          <label for="name">Name</label>
+          <input type="text" name="fname" id="name">
+        </div>
+
+        <fieldset>
+          <legend>Address</legend>
+          <address class="[object Object]">
+            <div class="address">
+             <label for="street">Street Name</label>
+             <input type="text" name="street" id="street" >
+             <label for="suburb">Suburb</label>
+             <input type="text" name="suburb" id="suburb" >
+             <label for="zip">Zip Code</label>
+             <input type="text" name="zip" id="zip" >
+             <label for="state">State</label>
+             <input type="text" name="state" id="state" >
+           </div>
+          </address>
+        </fieldset>
+
+        <div class="email">
+          <label for="email">Email Address</label>
+          <input type="text" name="email" id="email" >
+        </div>
+
+        <div class="phone">
+          <label for="phone">Phone Number</label>
+          <input type="tel" name="phone" id="phone">
+        </div>
+
+        <div class="birthday">
+          <label for="birthday">Date of Birth</label>
+          <input type="date" name="birthday" id="birthday">
+        </div>
+
+
+        <input type="submit" name="submit" value="Submit form">
+    </form>
+
+
+
+
+  </body>
+</html>

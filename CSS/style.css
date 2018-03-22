@@ -6,14 +6,17 @@ input,select,textarea:{
   font-family: inherit;
   font-size: 100%;
 }
+#registrationform{
+  text-align: center;
+}
 
 label{
   display: block;
-  margin: 5px;
+  margin: auto;
 }
 
 input[type="text"],input[type="email"]{
-  margin: 5px;
+  margin: .5em;
   width:90%;
 }
 
@@ -29,6 +32,7 @@ input:active{
   background: #6699c4;
   padding: .2em;
   margin: .2em;
+  text-align: center;
 }
 
 #headline1{
@@ -45,12 +49,12 @@ body{
 }
 #zip{max-width: 10em}
 
-@media (min-width:40em) {
+@media (min-width:30em) {
   label{
-    display:inline;
+    display:block;
   }
   input[type="text"],input[type="tel"],input[type="email"]{
-    margin: .2em auto .8em
-    width:50%
+    margin: .2em auto .8em auto;
+    width:400px;
   }
 }

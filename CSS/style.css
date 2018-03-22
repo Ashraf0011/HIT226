@@ -6,6 +6,30 @@ input,select,textarea:{
   font-family: inherit;
   font-size: 100%;
 }
+.homeContent{
+  text-align: center;
+}
+.section{
+  text-align: left;
+}
+.asideSL, .asideSR{
+  text-align: left;
+}
+.leftS{
+  display: inline-block;
+  float: left;
+  margin: 2em;
+}
+.middleS{
+  display: inline-block;
+  float: center;
+  margin: 2em;
+}
+.rightS{
+  display: inline-block;
+  float: right;
+    margin: 2em;
+}
 #registrationform{
   text-align: center;
 }

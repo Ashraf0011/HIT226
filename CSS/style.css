@@ -1,3 +1,6 @@
+body{
+  background: #5B616A;
+}
 button,input,select,textarea:{
 box-sizing: border-box;
 }
@@ -53,14 +56,16 @@ input:active{
 }
 
 .header{
-  background: #6699c4;
+  background: #FFFFFF;
   padding: .2em;
   margin: .2em;
   text-align: center;
+  border-radius:5px;
 }
 
 #headline1{
   text-align: center;
+  color: #32213A;
 }
 
 .nav-container{
@@ -68,9 +73,6 @@ input:active{
   display: inline;
 }
 
-body{
-  background: #FDF0D5;
-}
 #zip{max-width: 10em}
 
 fieldset{

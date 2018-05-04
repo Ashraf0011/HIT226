@@ -1,7 +1,4 @@
-.body{
-  font-family: "Helvetica","Arial",sans-serif;
-  background: #FFFFFF;
-}
+
 .homeContent{
   text-align: center;
 }
@@ -18,8 +15,7 @@
 }
 
 .nav-container{
-  text-align: right;
-  display: inline;
+  display: inline-block;
 }
 .cards{
   display: inline-block;

@@ -11,6 +11,9 @@ body{
 .image{
   width:100%;
 }
+.show{
+  display: block;
+}
 ul{
   margin: 0px;
   padding: 0px;

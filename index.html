@@ -4,7 +4,6 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width initial-scale=1">
       <link rel="stylesheet" href="css/hit226.css">
-      <script  type="text/javascript" src="js/jquery2.3.1.min.js"></script>
       <script  type="text/javascript" src="js/hit226.js"></script>
 
       <title>Home</title>
@@ -16,31 +15,31 @@
     </div>
     <h1> Henbury School website</h1>
       <div class="nav-container">
-          <nav>
+          <nav calss="navigation">
             <div>Menu</div>
                 <ul class="parent" >
                     <li>  <a href="index.html"> Home</a> </li>
                     <li>  <a href="registration.html">Registration</a></li>
                     <li>  <a href="prac4/card.html">Prac4</a></li>
-                    <li>  <a href="location.html">Location</a>
-                      <ul  class="child">
-                        <li> <a href="darwin.html">Darwin</a> </li>
-                        <li> <a href="palmerston.html">Palmerston</a> </li>
-                        <li> <a href="katherine.html">Katherine</a> </li>
-                      </ul>
-                      </li>
-                    <li>  <a href="about.html">About </a>
-                      <ul class="child">
-                        <li>  <a href="history.html">History</a> </li>
-                        <li>  <a href="team.html">Team</a> </li>
-                      </ul>
+                    <li>  <a href="location.html" onclick="open('.child1')" >Location</a>
+                        <ul  class="child child1" >
+                            <li> <a href="darwin.html">Darwin</a> </li>
+                            <li> <a href="palmerston.html">Palmerston</a> </li>
+                            <li> <a href="katherine.html">Katherine</a> </li>
+                        </ul>
                     </li>
-                    <li>  <a href="media.html"> Media</a>
-                      <ul class="child">
-                        <li>  <a href="blog.html">Blog</a> </li>
-                        <li>  <a href="photos.html">Photo Galary</a> </li>
-                        <li>  <a href="reports.html">Reports</a> </li>
-                      </ul>
+                    <li>  <a href="about.html" onclick="open('.child2')">About </a>
+                        <ul class="child child2" >
+                            <li>  <a href="history.html">History</a> </li>
+                            <li>  <a href="team.html">Team</a> </li>
+                        </ul>
+                    </li>
+                    <li>  <a href="media.html" onclick="open('.child3')"> Media</a>
+                        <ul class="child child3" >
+                            <li>  <a href="blog.html">Blog</a> </li>
+                            <li>  <a href="photos.html">Photo Galary</a> </li>
+                            <li>  <a href="reports.html">Reports</a> </li>
+                        </ul>
                     </li>
                     <li> <a href="contact.html">Contact</a> </li>
                 </ul>
